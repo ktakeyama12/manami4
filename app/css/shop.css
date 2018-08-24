@@ -66,3 +66,7 @@ body{
 .dates{
 
 }
+
+div#mainCharaName {
+  font-size: 80px;
+}

@@ -4,6 +4,9 @@ function roll(){
   $("#charaImg").fadeIn();
   $("#naming").fadeIn();
   document.getElementById("roll").style.display = "none";
+
+  // 本来はデータベースから所得
+  document.mainCharaImg.src = 'images/characters/'+ charaNum + '/grade1_stay@2x.png';
 }
 
 function naming(){
@@ -12,6 +15,9 @@ function naming(){
   document.getElementById("namingMessage").innerText = "分かったぞ、" + name + "を可愛がってね。";
   document.getElementById("naming").style.display = "none";
   document.getElementById("goToMainPage").style.display = "block";
+
+  // 本来はデータベースから所得
+  document.getElementById("mainCharaName").innerText = name;
 }
 
 function goToMainpage(){
