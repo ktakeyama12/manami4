@@ -3,5 +3,5 @@ dist/
 .tmp
 app.yaml
 .idea/workspace.xml
-.ieda/vcs.xml
-.ieda/*
+.idea/vcs.xml
+.idea/*
