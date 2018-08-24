@@ -1,5 +1,8 @@
+/*shop_html*/
+
 body{
   background-image: url("../images/8398aeeea35fa5a67a4a452b8218dcae.png");
+  opacity: 0.3;
 }
 
 
@@ -63,6 +66,37 @@ body{
 .slidemenu #slide-item-3:checked ~ .slider .bar{ margin-left: 50%; }
 .slidemenu #slide-item-4:checked ~ .slider .bar{ margin-left: 75%; }
 
-.dates{
 
+.shop_btn{
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #668ad8;/*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+  margin-top: 500px;
+}
+.shop_btn:active {/*ボタンを押したとき*/
+  -ms-transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+}
+.belongings_btn{
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: limegreen;/*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 4px green;
+  border-radius: 3px;
+  margin-left: 300px;
+  margin-top: 500px;
+}
+.belongings_btn:active {/*ボタンを押したとき*/
+  -ms-transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
 }
