@@ -16,5 +16,5 @@ function naming(){
 
 function goToMainpage(){
   document.getElementById("gacha").style.display = "none";
-  document.getElementById("main").style.display = "block";
+  document.getElementById("mainPage").style.display = "block";
 }
