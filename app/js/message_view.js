@@ -348,6 +348,8 @@
         },
 
         end: function() {
+          document.getElementById("sample").style.display = "none";
+          document.getElementById("gacha").style.display = "block";
             this.callBack();
         },
 

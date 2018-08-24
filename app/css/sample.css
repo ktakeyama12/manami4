@@ -48,7 +48,7 @@ section#sample.sample002 .messageView .mv-contents .mv-comment .pointer {
   bottom: 0;
   width: 20px;
   height: 34px;
-  background: url(../img//icon_pointer.png) no-repeat;
+  /*background: url(../img//icon_pointer.png) no-repeat;*/
   -moz-background-size: 20px auto;
   -o-background-size: 20px auto;
   -webkit-background-size: 20px auto;
