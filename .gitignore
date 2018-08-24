@@ -4,3 +4,4 @@ dist/
 app.yaml
 .idea/workspace.xml
 .ieda/vcs.xml
+.ieda
