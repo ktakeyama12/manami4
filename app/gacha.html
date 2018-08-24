@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+<body>
+  <div id="gacha">
+    <div id="gacharoll">
+      <div id="chara"></div>
+      <img src="" name="charaImg" id="charaImg" style="display: none"/>
+      <button id="roll" onclick="roll()">ガチャを引く</button>
+    </div>
+
+    <div id="naming" style="display: none">
+      名前を入力: <input type="text" id="charaName">
+      <br>
+      <button id="name" onclick="naming()">この名前にする</button>
+    </div>
+
+    <div id="namingComplete">
+      <div id="namingMessage"></div>
+    </div>
+
+    <div id="goToMainPage" style="display: none">
+      <button id="goToMainPageButton" onclick="goToMainpage()">メイン画面に進む</button>
+    </div>
+  </div>
+
+  <div id="main" style="display: none">
+
+  </div>
+
+  <script src="js/gacha.js"></script>
+</body>
+</html>
