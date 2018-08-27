@@ -27,3 +27,22 @@ $("#mainCharaImg").droppable({
 function evolve(charaNum){
 
 }
+
+//時間を取得するbyじょい
+document.getElementById("date").innerHTML = getNow();
+function getNow() {
+
+  //今日の日付データを変数nowに格納
+  var now = new Date();
+
+  //月・日・曜日・時間を取得する
+  var month = now.getMonth() + 1;
+  var week = now.getDay();
+  var day = now.getDate();
+  var hour = now.getHours();
+
+  var yobi = new Array("日", "月", "火", "水", "木", "金", "土");
+
+  var s = month + "月" + day + "日 " + yobi[week] + "曜日";
+  return s;
+}
