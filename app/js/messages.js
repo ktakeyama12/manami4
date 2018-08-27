@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
+  var name = document.getElementById("charaName").value;
   var message = new MessageViewer({
     "data": [{
       "side_class": "right",
@@ -22,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
       "message":"いったれい！"
     },
     {
-        "message":"うんち！"
+        "message": "分かったぞ、" + document.getElementById("charaName").value + "を可愛がってね。"
     }
 
     ],
