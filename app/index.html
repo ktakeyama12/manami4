@@ -90,6 +90,28 @@
     </nav>
     <img src="" name="mainCharaImg" id="mainCharaImg"/>
     <div id="mainCharaName"></div>
+
+
+    <script>
+      function incrementHoge(){
+        var hoge=document.getElementById("hoge");
+        hoge.value=(hoge.value==""?50:parseInt(hoge.value))+1
+      }
+      function incrementHoge2(){
+        var hoge=document.getElementById("hoge2");
+        hoge.value=(hoge.value==""?50:parseInt(hoge.value))+1
+      }
+    </script>
+    <form>
+      <label>おなかの空き具合</label>
+      <input placeholder="50" id="hoge">
+      <input type="button" value="餌をあげる" onclick="incrementHoge()">
+    </form>
+    <form>
+      <label>お部屋のキレイ度</label>
+      <input placeholder="50" id="hoge2">
+      <input type="button" value="掃除をする" placeholder="50" onclick="incrementHoge2()">
+    </form>
   </div>
 
 <!--scripts-->
