@@ -354,8 +354,9 @@
         },
 
         end: function() {
-          // document.getElementById("sample").style.display = "none";
-          // document.getElementById("gacha").style.display = "block";
+          document.getElementById("sample").style.display = "none";
+          document.getElementById("gacha").style.display = "none";
+          document.getElementById("mainPage").style.display = "block";
             this.callBack();
         },
 

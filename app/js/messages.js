@@ -23,9 +23,17 @@ document.addEventListener("DOMContentLoaded", function() {
       "message":"いったれい！"
     },
     {
-        "message": "分かったぞ、" + document.getElementById("charaName").value + "を可愛がってね。"
-    }
-
+      "side_class": "center",
+      "name": "まな爺",
+      "message":"分かったぞ。可愛がってあげるんだぞ。",
+      "img_url": "images/sample001/tutorial_toniji01.png"
+    },
+      {
+        "side_class": "center",
+        "name": "まな爺",
+        "message":"準備はできた。よし、まなワールドの世界に行くぞい！",
+        "img_url": "images/sample001/tutorial_toniji01.png"
+      }
     ],
     "option": {
       "loop": false

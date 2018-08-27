@@ -18,7 +18,7 @@ function naming(){
   // document.getElementById("goToMainPage").style.display = "block";
   //
   // // 本来はデータベースから所得
-  // document.getElementById("mainCharaName").innerText = name;
+  document.getElementById("mainCharaName").innerText = name;
 }
 
 function goToMainpage(){
