@@ -316,6 +316,12 @@
             }
             this.commentClear();
             this.selectedNum += 1;
+
+            // 最初のイントロ終わり
+          if(this.selectedNum == 4) {
+            document.getElementById("sample").style.display = "none";
+            document.getElementById("gacha").style.display = "block";
+          }
             if(this.maxNum > this.selectedNum) {
                 this.selectedData = this.data[this.selectedNum];
                 if(this.selectedData.side_class !== undefined) {
@@ -348,8 +354,8 @@
         },
 
         end: function() {
-          document.getElementById("sample").style.display = "none";
-          document.getElementById("gacha").style.display = "block";
+          // document.getElementById("sample").style.display = "none";
+          // document.getElementById("gacha").style.display = "block";
             this.callBack();
         },
 

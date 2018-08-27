@@ -11,13 +11,14 @@ function roll(){
 
 function naming(){
   var name = document.getElementById("charaName").value;
-  console.log(name);
-  document.getElementById("namingMessage").innerText = "分かったぞ、" + name + "を可愛がってね。";
-  document.getElementById("naming").style.display = "none";
-  document.getElementById("goToMainPage").style.display = "block";
-
-  // 本来はデータベースから所得
-  document.getElementById("mainCharaName").innerText = name;
+  document.getElementById("sample").style.display = "block";
+  // console.log(name);
+  // document.getElementById("namingMessage").innerText = "分かったぞ、" + name + "を可愛がってね。";
+  // document.getElementById("naming").style.display = "none";
+  // document.getElementById("goToMainPage").style.display = "block";
+  //
+  // // 本来はデータベースから所得
+  // document.getElementById("mainCharaName").innerText = name;
 }
 
 function goToMainpage(){

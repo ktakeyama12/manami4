@@ -20,6 +20,9 @@ document.addEventListener("DOMContentLoaded", function() {
     },
     {
       "message":"いったれい！"
+    },
+    {
+        "message":"うんち！"
     }
 
     ],
