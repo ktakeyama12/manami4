@@ -70,8 +70,8 @@
       <!-- Item 1 -->
       <input type="radio" name="slideItem" id="slide-item-1" class="slide-toggle" checked/>
       <label for="slide-item-1">
-        <p class="icon">📕</p><span>Dates
-      <p><input type="text" class="dates"></p>
+        <p class="icon">📕</p><span>Dates</span>
+        <input type="text" class="dates">
       </label>
 
 
@@ -80,15 +80,19 @@
       <label for="slide-item-2"><p class="icon">💰</p><span>Point</span></label>
 
       <!-- Item 3 -->
-      <input type="radio" name="slideItem" id="slide-item-3" class="slide-toggle"/>
-      <label for="slide-item-3"><p class="icon">🍔</p><span>Hungry</span></label>
+
+      <input type="button" name="slideItem" id="slide-item-3" class="slide-toggle" onclick="incrementHoge()"/>
+      <label for="slide-item-3">
+        <p class="icon">🍔</p><span>Hungry</span>
+        <input placeholder="50" id="hoge">
+      </label>
 
       <!-- Item 4 -->
-      <input type="radio" name="slideItem" id="slide-item-4" class="slide-toggle"/>
-      <label for="slide-item-4"><p class="icon">🚽</p><span>Clean</span></label>
-
-      <div class="clear"></div>
-
+      <input type="button" name="slideItem" id="slide-item-4" class="slide-toggle" onclick="incrementHoge2()"/>
+      <label for="slide-item-4">
+        <p class="icon">🚽</p><span>Clean</span>
+        <input placeholder="50" id="hoge2">
+      </label>
 
     </nav>
     <div id="charaNum"></div>
@@ -111,16 +115,6 @@
         hoge.value=(hoge.value==""?50:parseInt(hoge.value))+1
       }
     </script>
-    <form>
-      <label>おなかの空き具合</label>
-      <input placeholder="50" id="hoge">
-      <input type="button" value="餌をあげる" onclick="incrementHoge()">
-    </form>
-    <form>
-      <label>お部屋のキレイ度</label>
-      <input placeholder="50" id="hoge2">
-      <input type="button" value="掃除をする" placeholder="50" onclick="incrementHoge2()">
-    </form>
 
     <img src="images/items/1.png" id="food1"/>
     <img src="images/items/2.png" id="food2"/>
