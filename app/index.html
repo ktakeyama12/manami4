@@ -71,13 +71,16 @@
       <input type="radio" name="slideItem" id="slide-item-1" class="slide-toggle" checked/>
       <label for="slide-item-1">
         <p class="icon">📕</p><span>Dates</span>
-        <input type="text" class="dates">
+        <span id="date"></span>
       </label>
 
 
       <!-- Item 2 -->
       <input type="radio" name="slideItem" id="slide-item-2" class="slide-toggle"/>
-      <label for="slide-item-2"><p class="icon">💰</p><span>Point</span></label>
+      <label for="slide-item-2">
+        <p class="icon">💰</p><span>Point</span>
+        <input placeholder="50">
+      </label>
 
       <!-- Item 3 -->
 
@@ -115,7 +118,6 @@
         hoge.value=(hoge.value==""?50:parseInt(hoge.value))+1
       }
     </script>
-
     <img src="images/items/1.png" id="food1"/>
     <img src="images/items/2.png" id="food2"/>
 
