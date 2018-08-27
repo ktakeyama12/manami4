@@ -103,3 +103,90 @@ body{
 div#mainCharaName {
   font-size: 80px;
 }
+
+
+/*shopの中身*/
+
+.shop{
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: orangered;/*ボタン色*/
+  color: #FFF;
+  margin-left: 5px;
+}
+
+.food{
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #668ad8;/*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+}
+
+.food:active {/*ボタンを押したとき*/
+  -ms-transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+}
+
+.cleaning{
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #668ad8;/*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+  margin-left: 5px;
+}
+
+.playing{
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #668ad8;/*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+  margin-left: 5px;
+}
+
+.shop_btn_shop{
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #668ad8;/*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+  margin-top: 500px;
+  float: left;
+}
+.shop_btn_shop:active {/*ボタンを押したとき*/
+  -ms-transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+}
+.belongings_btn_shop{
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: limegreen;/*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 4px green;
+  border-radius: 3px;
+  margin-left: 300px;
+  margin-top: 500px;
+  float: right;
+}
+.belongings_btn_shop:active {/*ボタンを押したとき*/
+  -ms-transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+}
