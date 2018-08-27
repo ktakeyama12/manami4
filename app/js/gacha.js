@@ -1,5 +1,6 @@
 function roll(){
   var charaNum = Math.floor(Math.random() * 11 + 1);
+  document.getElementById("charaNum").innerText = charaNum,toString();
   document.charaImg.src = 'images/characters/'+ charaNum + '/grade1_stay@2x.png';
   $("#charaImg").fadeIn();
   $("#naming").fadeIn();
